@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>.error { color: red; }</style>
+</head>
+<body>
+  <div id="vis"></div>
+  <script type="module">
+    import { importWithMap } from "https://unpkg.com/dynamic-importmap@0.1.0";
+    let importMap = {"imports": {"react": "https://esm.sh/react@18", "react-dom": "https://esm.sh/react-dom@18", "pixi": "https://esm.sh/pixi.js@6?bundle", "higlass": "https://esm.sh/higlass@1.13?external=react,react-dom,pixi&bundle", "gosling.js": "https://esm.sh/gosling.js@0.17.0?external=react,react-dom,pixi,higlass&bundle"}};
+    let gosling = await importWithMap("gosling.js", importMap);
+    let el = document.getElementById('vis');
+    let spec = {"alignment": "stack", "tracks": [{"data": {"type": "csv", "url": "http://localhost:37133/resources/38b0573-temp.csv", "chromosomeField": "seq_id", "chromosomePrefix": "MZ781228.", "genomicFields": ["start", "end"]}, "mark": "rect", "color": {"domain": ["CDS", "tRNA", "rRNA", "D-loop"], "field": "gbkey", "range": ["#ffff00", "#000080", "#ff4500", "#000000"], "type": "nominal"}, "dataTransform": [{"type": "filter", "field": "gbkey", "oneOf": ["tRNA", "rRNA", "CDS", "D-loop"]}, {"type": "filter", "field": "strand", "oneOf": ["-"], "not": true}], "height": 10, "stroke": {"value": "#000000"}, "strokeWidth": {"value": 0.5}, "width": 500, "x": {"axis": "none", "domain": {"chromosome": "chr1", "interval": [0, 15000]}, "field": "start", "type": "genomic"}, "xe": {"field": "end", "type": "genomic"}}, {"data": {"type": "csv", "url": "http://localhost:37133/resources/38b0573-temp.csv", "chromosomeField": "seq_id", "chromosomePrefix": "MZ781228.", "genomicFields": ["start", "end"]}, "mark": "rect", "color": {"domain": ["CDS", "tRNA", "rRNA", "D-loop"], "field": "gbkey", "range": ["#ffff00", "#000080", "#ff4500", "#000000"], "type": "nominal"}, "dataTransform": [{"type": "filter", "field": "gbkey", "oneOf": ["tRNA", "rRNA", "CDS", "D-loop"]}, {"type": "filter", "field": "strand", "oneOf": ["+"], "not": true}], "height": 10, "stroke": {"value": "#000000"}, "strokeWidth": {"value": 0.5}, "width": 500, "x": {"axis": "none", "domain": {"chromosome": "chr1", "interval": [0, 15000]}, "field": "start", "type": "genomic"}, "xe": {"field": "end", "type": "genomic"}}, {"data": {"type": "csv", "url": "http://localhost:37133/resources/0e7065f-MZ781228_gc_content.csv"}, "mark": "bar", "color": {"domain": [10, 20, 30], "field": "gc_content", "range": ["#1E88E5", "#7CB342", "#D81B60"]}, "height": 10, "tooltip": [{"field": "position", "type": "genomic"}, {"field": "gc_content", "type": "quantitative"}], "width": 500, "x": {"field": "position", "type": "genomic"}, "y": {"domain": [0, 50], "field": "gc_content", "flip": true, "type": "quantitative"}}, {"data": {"type": "csv", "url": "http://localhost:37133/resources/f9c4d94-MZ781228_sort_out.12F.bam.tsv", "separator": "\t", "headerNames": ["id", "position", "depth"]}, "mark": "line", "height": 10, "tooltip": [{"field": "position", "type": "genomic"}, {"field": "depth", "type": "quantitative"}], "width": 500, "x": {"axis": "bottom", "field": "position", "type": "genomic"}, "y": {"field": "depth", "flip": true, "type": "quantitative"}}], "title": "Basic Marks: Rect", "subtitle": "Tutorial Examples", "layout": "circular", "xDomain": {"chromosome": "chr1", "interval": [0, 15235]}, "spacing": 0, "static": true, "centerRadius": 0.3};
+    let opt = {"padding": 0, "theme": null};
+    gosling.embed(el, spec, opt).catch((err) => {
+      el.innerHTML = `    <div class="error">
+        <p>JavaScript Error: ${error.message}</p>
+        <p>This usually means there's a typo in your Gosling specification. See the javascript console for the full traceback.</p>
+    </div>`;
+      throw error;
+    });
+  </script>
+</body>
+</html>

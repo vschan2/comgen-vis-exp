@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>.error { color: red; }</style>
+</head>
+<body>
+  <div id="vis"></div>
+  <script type="module">
+    import { importWithMap } from "https://unpkg.com/dynamic-importmap@0.1.0";
+    let importMap = {"imports": {"react": "https://esm.sh/react@18", "react-dom": "https://esm.sh/react-dom@18", "pixi": "https://esm.sh/pixi.js@6?bundle", "higlass": "https://esm.sh/higlass@1.13?external=react,react-dom,pixi&bundle", "gosling.js": "https://esm.sh/gosling.js@0.17.0?external=react,react-dom,pixi,higlass&bundle"}};
+    let gosling = await importWithMap("gosling.js", importMap);
+    let el = document.getElementById('vis');
+    let spec = {"alignment": "overlay", "tracks": [{"data": {"type": "csv", "url": "http://localhost:37133/resources/2b73a8b-MZ781228.fasta.csv"}, "mark": "bar", "color": {"domain": ["A", "T", "G", "C"], "field": "Base", "legend": true, "type": "nominal"}, "height": 50, "width": 100, "x": {"field": "Start", "type": "genomic"}, "xe": {"field": "End", "type": "genomic"}, "y": {"axis": "none", "field": "Count", "type": "quantitative"}}, {"data": {"type": "csv", "url": "http://localhost:37133/resources/2b73a8b-MZ781228.fasta.csv"}, "mark": "text", "color": {"value": "white"}, "dataTransform": [{"type": "filter", "field": "Count", "oneOf": [0], "not": true}], "size": {"value": 24}, "text": {"field": "Base", "type": "nominal"}, "visibility": [{"operation": "LT", "measure": "width", "threshold": "|xe-x|", "transitionPadding": 30, "target": "mark"}, {"operation": "LT", "measure": "zoomLevel", "threshold": 10, "target": "track"}], "x": {"field": "Start", "type": "genomic"}, "xe": {"field": "End", "type": "genomic"}}], "title": "Multi-Scale Sequence Plot", "xDomain": {"interval": [0, 15235]}, "width": 725, "height": 100};
+    let opt = {"padding": 0, "theme": null};
+    gosling.embed(el, spec, opt).catch((err) => {
+      el.innerHTML = `    <div class="error">
+        <p>JavaScript Error: ${error.message}</p>
+        <p>This usually means there's a typo in your Gosling specification. See the javascript console for the full traceback.</p>
+    </div>`;
+      throw error;
+    });
+  </script>
+</body>
+</html>

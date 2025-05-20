@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "data": {
+        "type": "csv",
+        "separator": ",",
+        "fromDataset": "MZ781228_gc_content"
+      },
+      "mark": "line",
+      "x": {
+        "field": "position",
+        "type": "genomic"
+      },
+      "y": {
+        "field": "gc_content",
+        "type": "quantitative",
+        "domain": [
+          0,
+          100
+        ]
+      },
+      "color": {
+        "value": "#4C78A8"
+      },
+      "title": "GC Content (%)",
+      "style": {
+        "backgroundOpacity": 0.1
+      }
+    }
+  ]
+}

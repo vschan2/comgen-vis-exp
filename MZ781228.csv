@@ -1,0 +1,101 @@
+seq_id,source,type,start,end,score,strand,phase,attributes
+MZ781228.1,Genbank,gene,1,67,.,+,.,ID=gene-trnM(cat);Name=trnM(cat);gbkey=Gene;gene=trnM(cat);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,1,67,.,+,.,ID=rna-trnM(cat);Parent=gene-trnM(cat);gbkey=tRNA;gene=trnM(cat);product=tRNA-Met
+MZ781228.1,Genbank,exon,1,67,.,+,.,ID=exon-trnM(cat)-1;Parent=rna-trnM(cat);gbkey=tRNA;gene=trnM(cat);product=tRNA-Met
+MZ781228.1,Genbank,gene,67,130,.,+,.,ID=gene-trnI(gat);Name=trnI(gat);gbkey=Gene;gene=trnI(gat);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,67,130,.,+,.,ID=rna-trnI(gat);Parent=gene-trnI(gat);gbkey=tRNA;gene=trnI(gat);product=tRNA-Ile
+MZ781228.1,Genbank,exon,67,130,.,+,.,ID=exon-trnI(gat)-1;Parent=rna-trnI(gat);gbkey=tRNA;gene=trnI(gat);product=tRNA-Ile
+MZ781228.1,Genbank,gene,128,196,.,-,.,ID=gene-trnQ(ttg);Name=trnQ(ttg);gbkey=Gene;gene=trnQ(ttg);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,128,196,.,-,.,ID=rna-trnQ(ttg);Parent=gene-trnQ(ttg);gbkey=tRNA;gene=trnQ(ttg);product=tRNA-Gln
+MZ781228.1,Genbank,exon,128,196,.,-,.,ID=exon-trnQ(ttg)-1;Parent=rna-trnQ(ttg);gbkey=tRNA;gene=trnQ(ttg);product=tRNA-Gln
+MZ781228.1,Genbank,gene,231,1244,.,+,.,ID=gene-nad2;Name=nad2;gbkey=Gene;gene=nad2;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,231,1244,.,+,0,ID=cds-UER94209.1;Parent=gene-nad2;Dbxref=NCBI_GP:UER94209.1;Name=UER94209.1;gbkey=CDS;gene=nad2;product=NADH dehydrogenase subunit 2;protein_id=UER94209.1;transl_table=5
+MZ781228.1,Genbank,gene,1243,1307,.,+,.,ID=gene-trnW(tca);Name=trnW(tca);gbkey=Gene;gene=trnW(tca);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,1243,1307,.,+,.,ID=rna-trnW(tca);Parent=gene-trnW(tca);gbkey=tRNA;gene=trnW(tca);product=tRNA-Trp
+MZ781228.1,Genbank,exon,1243,1307,.,+,.,ID=exon-trnW(tca)-1;Parent=rna-trnW(tca);gbkey=tRNA;gene=trnW(tca);product=tRNA-Trp
+MZ781228.1,Genbank,gene,1300,1365,.,-,.,ID=gene-trnC(gca);Name=trnC(gca);gbkey=Gene;gene=trnC(gca);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,1300,1365,.,-,.,ID=rna-trnC(gca);Parent=gene-trnC(gca);gbkey=tRNA;gene=trnC(gca);product=tRNA-Cys
+MZ781228.1,Genbank,exon,1300,1365,.,-,.,ID=exon-trnC(gca)-1;Parent=rna-trnC(gca);gbkey=tRNA;gene=trnC(gca);product=tRNA-Cys
+MZ781228.1,Genbank,gene,1368,1434,.,-,.,ID=gene-trnY(gta);Name=trnY(gta);gbkey=Gene;gene=trnY(gta);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,1368,1434,.,-,.,ID=rna-trnY(gta);Parent=gene-trnY(gta);gbkey=tRNA;gene=trnY(gta);product=tRNA-Tyr
+MZ781228.1,Genbank,exon,1368,1434,.,-,.,ID=exon-trnY(gta)-1;Parent=rna-trnY(gta);gbkey=tRNA;gene=trnY(gta);product=tRNA-Tyr
+MZ781228.1,Genbank,gene,1437,2967,.,+,.,"ID=gene-cox1;Name=cox1;gbkey=Gene;gene=cox1;gene_biotype=protein_coding;partial=true;start_range=.,1437"
+MZ781228.1,Genbank,CDS,1437,2967,.,+,0,"ID=cds-UER94210.1;Parent=gene-cox1;Dbxref=NCBI_GP:UER94210.1;Name=UER94210.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=cox1;partial=true;product=cytochrome c oxidase subunit 1;protein_id=UER94210.1;start_range=.,1437;transl_except=(pos:2967%2Caa:TERM);transl_table=5"
+MZ781228.1,Genbank,gene,2968,3034,.,+,.,ID=gene-trnL2(taa);Name=trnL2(taa);gbkey=Gene;gene=trnL2(taa);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,2968,3034,.,+,.,ID=rna-trnL2(taa);Parent=gene-trnL2(taa);gbkey=tRNA;gene=trnL2(taa);product=tRNA-Leu
+MZ781228.1,Genbank,exon,2968,3034,.,+,.,ID=exon-trnL2(taa)-1;Parent=rna-trnL2(taa);gbkey=tRNA;gene=trnL2(taa);product=tRNA-Leu
+MZ781228.1,Genbank,gene,3035,3716,.,+,.,ID=gene-cox2;Name=cox2;gbkey=Gene;gene=cox2;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,3035,3716,.,+,0,ID=cds-UER94211.1;Parent=gene-cox2;Dbxref=NCBI_GP:UER94211.1;Name=UER94211.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=cox2;product=cytochrome c oxidase subunit 2;protein_id=UER94211.1;transl_except=(pos:3716%2Caa:TERM);transl_table=5
+MZ781228.1,Genbank,gene,3717,3787,.,+,.,ID=gene-trnK(ctt);Name=trnK(ctt);gbkey=Gene;gene=trnK(ctt);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,3717,3787,.,+,.,ID=rna-trnK(ctt);Parent=gene-trnK(ctt);gbkey=tRNA;gene=trnK(ctt);product=tRNA-Lys
+MZ781228.1,Genbank,exon,3717,3787,.,+,.,ID=exon-trnK(ctt)-1;Parent=rna-trnK(ctt);gbkey=tRNA;gene=trnK(ctt);product=tRNA-Lys
+MZ781228.1,Genbank,gene,3787,3853,.,+,.,ID=gene-trnD(gtc);Name=trnD(gtc);gbkey=Gene;gene=trnD(gtc);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,3787,3853,.,+,.,ID=rna-trnD(gtc);Parent=gene-trnD(gtc);gbkey=tRNA;gene=trnD(gtc);product=tRNA-Asp
+MZ781228.1,Genbank,exon,3787,3853,.,+,.,ID=exon-trnD(gtc)-1;Parent=rna-trnD(gtc);gbkey=tRNA;gene=trnD(gtc);product=tRNA-Asp
+MZ781228.1,Genbank,gene,3854,4021,.,+,.,ID=gene-atp8;Name=atp8;gbkey=Gene;gene=atp8;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,3854,4021,.,+,0,ID=cds-UER94212.1;Parent=gene-atp8;Dbxref=NCBI_GP:UER94212.1;Name=UER94212.1;gbkey=CDS;gene=atp8;product=ATP synthase F0 subunit 8;protein_id=UER94212.1;transl_table=5
+MZ781228.1,Genbank,gene,4015,4692,.,+,.,ID=gene-atp6;Name=atp6;gbkey=Gene;gene=atp6;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,4015,4692,.,+,0,ID=cds-UER94213.1;Parent=gene-atp6;Dbxref=NCBI_GP:UER94213.1;Name=UER94213.1;gbkey=CDS;gene=atp6;product=ATP synthase F0 subunit 6;protein_id=UER94213.1;transl_table=5
+MZ781228.1,Genbank,gene,4692,5477,.,+,.,ID=gene-cox3;Name=cox3;gbkey=Gene;gene=cox3;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,4692,5477,.,+,0,ID=cds-UER94214.1;Parent=gene-cox3;Dbxref=NCBI_GP:UER94214.1;Name=UER94214.1;gbkey=CDS;gene=cox3;product=cytochrome c oxidase subunit 3;protein_id=UER94214.1;transl_table=5
+MZ781228.1,Genbank,gene,5481,5546,.,+,.,ID=gene-trnG(tcc);Name=trnG(tcc);gbkey=Gene;gene=trnG(tcc);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,5481,5546,.,+,.,ID=rna-trnG(tcc);Parent=gene-trnG(tcc);gbkey=tRNA;gene=trnG(tcc);product=tRNA-Gly
+MZ781228.1,Genbank,exon,5481,5546,.,+,.,ID=exon-trnG(tcc)-1;Parent=rna-trnG(tcc);gbkey=tRNA;gene=trnG(tcc);product=tRNA-Gly
+MZ781228.1,Genbank,gene,5547,5900,.,+,.,ID=gene-nad3;Name=nad3;gbkey=Gene;gene=nad3;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,5547,5900,.,+,0,ID=cds-UER94215.1;Parent=gene-nad3;Dbxref=NCBI_GP:UER94215.1;Name=UER94215.1;gbkey=CDS;gene=nad3;product=NADH dehydrogenase subunit 3;protein_id=UER94215.1;transl_table=5
+MZ781228.1,Genbank,gene,5899,5963,.,+,.,ID=gene-trnA(tgc);Name=trnA(tgc);gbkey=Gene;gene=trnA(tgc);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,5899,5963,.,+,.,ID=rna-trnA(tgc);Parent=gene-trnA(tgc);gbkey=tRNA;gene=trnA(tgc);product=tRNA-Ala
+MZ781228.1,Genbank,exon,5899,5963,.,+,.,ID=exon-trnA(tgc)-1;Parent=rna-trnA(tgc);gbkey=tRNA;gene=trnA(tgc);product=tRNA-Ala
+MZ781228.1,Genbank,gene,5963,6024,.,+,.,ID=gene-trnR(tcg);Name=trnR(tcg);gbkey=Gene;gene=trnR(tcg);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,5963,6024,.,+,.,ID=rna-trnR(tcg);Parent=gene-trnR(tcg);gbkey=tRNA;gene=trnR(tcg);product=tRNA-Arg
+MZ781228.1,Genbank,exon,5963,6024,.,+,.,ID=exon-trnR(tcg)-1;Parent=rna-trnR(tcg);gbkey=tRNA;gene=trnR(tcg);product=tRNA-Arg
+MZ781228.1,Genbank,gene,6025,6089,.,+,.,ID=gene-trnN(gtt);Name=trnN(gtt);gbkey=Gene;gene=trnN(gtt);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,6025,6089,.,+,.,ID=rna-trnN(gtt);Parent=gene-trnN(gtt);gbkey=tRNA;gene=trnN(gtt);product=tRNA-Asn
+MZ781228.1,Genbank,exon,6025,6089,.,+,.,ID=exon-trnN(gtt)-1;Parent=rna-trnN(gtt);gbkey=tRNA;gene=trnN(gtt);product=tRNA-Asn
+MZ781228.1,Genbank,gene,6089,6148,.,+,.,ID=gene-trnS1(gct);Name=trnS1(gct);gbkey=Gene;gene=trnS1(gct);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,6089,6148,.,+,.,ID=rna-trnS1(gct);Parent=gene-trnS1(gct);gbkey=tRNA;gene=trnS1(gct);product=tRNA-Ser
+MZ781228.1,Genbank,exon,6089,6148,.,+,.,ID=exon-trnS1(gct)-1;Parent=rna-trnS1(gct);gbkey=tRNA;gene=trnS1(gct);product=tRNA-Ser
+MZ781228.1,Genbank,D_loop,6148,6192,.,+,.,ID=id-MZ781228.1:6148..6192;Note=control region;gbkey=D-loop
+MZ781228.1,Genbank,gene,6178,6246,.,+,.,ID=gene-trnE(ttc);Name=trnE(ttc);gbkey=Gene;gene=trnE(ttc);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,6178,6246,.,+,.,ID=rna-trnE(ttc);Parent=gene-trnE(ttc);gbkey=tRNA;gene=trnE(ttc);product=tRNA-Glu
+MZ781228.1,Genbank,exon,6178,6246,.,+,.,ID=exon-trnE(ttc)-1;Parent=rna-trnE(ttc);gbkey=tRNA;gene=trnE(ttc);product=tRNA-Glu
+MZ781228.1,Genbank,gene,6265,6330,.,-,.,ID=gene-trnF(gaa);Name=trnF(gaa);gbkey=Gene;gene=trnF(gaa);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,6265,6330,.,-,.,ID=rna-trnF(gaa);Parent=gene-trnF(gaa);gbkey=tRNA;gene=trnF(gaa);product=tRNA-Phe
+MZ781228.1,Genbank,exon,6265,6330,.,-,.,ID=exon-trnF(gaa)-1;Parent=rna-trnF(gaa);gbkey=tRNA;gene=trnF(gaa);product=tRNA-Phe
+MZ781228.1,Genbank,gene,6333,8048,.,-,.,ID=gene-nad5;Name=nad5;gbkey=Gene;gene=nad5;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,6333,8048,.,-,0,ID=cds-UER94216.1;Parent=gene-nad5;Dbxref=NCBI_GP:UER94216.1;Name=UER94216.1;gbkey=CDS;gene=nad5;product=NADH dehydrogenase subunit 5;protein_id=UER94216.1;transl_table=5
+MZ781228.1,Genbank,gene,8067,8133,.,-,.,ID=gene-trnH(gtg);Name=trnH(gtg);gbkey=Gene;gene=trnH(gtg);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,8067,8133,.,-,.,ID=rna-trnH(gtg);Parent=gene-trnH(gtg);gbkey=tRNA;gene=trnH(gtg);product=tRNA-His
+MZ781228.1,Genbank,exon,8067,8133,.,-,.,ID=exon-trnH(gtg)-1;Parent=rna-trnH(gtg);gbkey=tRNA;gene=trnH(gtg);product=tRNA-His
+MZ781228.1,Genbank,gene,8134,9472,.,-,.,ID=gene-nad4;Name=nad4;gbkey=Gene;gene=nad4;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,8134,9472,.,-,0,ID=cds-UER94217.1;Parent=gene-nad4;Dbxref=NCBI_GP:UER94217.1;Name=UER94217.1;Note=TAA stop codon is completed by the addition of 3' A residues to the mRNA;gbkey=CDS;gene=nad4;product=NADH dehydrogenase subunit 4;protein_id=UER94217.1;transl_except=(pos:complement(8134)%2Caa:TERM);transl_table=5
+MZ781228.1,Genbank,gene,9474,9764,.,-,.,ID=gene-nad4l;Name=nad4l;gbkey=Gene;gene=nad4l;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,9474,9764,.,-,0,ID=cds-UER94218.1;Parent=gene-nad4l;Dbxref=NCBI_GP:UER94218.1;Name=UER94218.1;gbkey=CDS;gene=nad4l;product=NADH dehydrogenase subunit 4L;protein_id=UER94218.1;transl_table=5
+MZ781228.1,Genbank,gene,9767,9831,.,+,.,ID=gene-trnT(tgt);Name=trnT(tgt);gbkey=Gene;gene=trnT(tgt);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,9767,9831,.,+,.,ID=rna-trnT(tgt);Parent=gene-trnT(tgt);gbkey=tRNA;gene=trnT(tgt);product=tRNA-Thr
+MZ781228.1,Genbank,exon,9767,9831,.,+,.,ID=exon-trnT(tgt)-1;Parent=rna-trnT(tgt);gbkey=tRNA;gene=trnT(tgt);product=tRNA-Thr
+MZ781228.1,Genbank,gene,9832,9896,.,-,.,ID=gene-trnP(tgg);Name=trnP(tgg);gbkey=Gene;gene=trnP(tgg);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,9832,9896,.,-,.,ID=rna-trnP(tgg);Parent=gene-trnP(tgg);gbkey=tRNA;gene=trnP(tgg);product=tRNA-Pro
+MZ781228.1,Genbank,exon,9832,9896,.,-,.,ID=exon-trnP(tgg)-1;Parent=rna-trnP(tgg);gbkey=tRNA;gene=trnP(tgg);product=tRNA-Pro
+MZ781228.1,Genbank,gene,9899,10432,.,+,.,ID=gene-nad6;Name=nad6;gbkey=Gene;gene=nad6;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,9899,10432,.,+,0,ID=cds-UER94219.1;Parent=gene-nad6;Dbxref=NCBI_GP:UER94219.1;Name=UER94219.1;gbkey=CDS;gene=nad6;product=NADH dehydrogenase subunit 6;protein_id=UER94219.1;transl_table=5
+MZ781228.1,Genbank,gene,10432,11580,.,+,.,ID=gene-cob;Name=cob;gbkey=Gene;gene=cob;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,10432,11580,.,+,0,ID=cds-UER94220.1;Parent=gene-cob;Dbxref=NCBI_GP:UER94220.1;Name=UER94220.1;gbkey=CDS;gene=cob;product=cytochrome b;protein_id=UER94220.1;transl_table=5
+MZ781228.1,Genbank,gene,11593,11657,.,+,.,ID=gene-trnS2(tga);Name=trnS2(tga);gbkey=Gene;gene=trnS2(tga);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,11593,11657,.,+,.,ID=rna-trnS2(tga);Parent=gene-trnS2(tga);gbkey=tRNA;gene=trnS2(tga);product=tRNA-Ser
+MZ781228.1,Genbank,exon,11593,11657,.,+,.,ID=exon-trnS2(tga)-1;Parent=rna-trnS2(tga);gbkey=tRNA;gene=trnS2(tga);product=tRNA-Ser
+MZ781228.1,Genbank,gene,11674,12612,.,-,.,ID=gene-nad1;Name=nad1;gbkey=Gene;gene=nad1;gene_biotype=protein_coding
+MZ781228.1,Genbank,CDS,11674,12612,.,-,0,ID=cds-UER94221.1;Parent=gene-nad1;Dbxref=NCBI_GP:UER94221.1;Name=UER94221.1;gbkey=CDS;gene=nad1;product=NADH dehydrogenase subunit 1;protein_id=UER94221.1;transl_table=5
+MZ781228.1,Genbank,gene,12613,12683,.,-,.,ID=gene-trnL1(tag);Name=trnL1(tag);gbkey=Gene;gene=trnL1(tag);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,12613,12683,.,-,.,ID=rna-trnL1(tag);Parent=gene-trnL1(tag);gbkey=tRNA;gene=trnL1(tag);product=tRNA-Leu
+MZ781228.1,Genbank,exon,12613,12683,.,-,.,ID=exon-trnL1(tag)-1;Parent=rna-trnL1(tag);gbkey=tRNA;gene=trnL1(tag);product=tRNA-Leu
+MZ781228.1,Genbank,gene,12684,13963,.,-,.,ID=gene-rrn16;Name=rrn16;gbkey=Gene;gene=rrn16;gene_biotype=rRNA
+MZ781228.1,Genbank,rRNA,12684,13963,.,-,.,ID=rna-rrn16;Parent=gene-rrn16;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+MZ781228.1,Genbank,exon,12684,13963,.,-,.,ID=exon-rrn16-1;Parent=rna-rrn16;gbkey=rRNA;gene=rrn16;product=16S ribosomal RNA
+MZ781228.1,Genbank,gene,14021,14083,.,-,.,ID=gene-trnV(tac);Name=trnV(tac);gbkey=Gene;gene=trnV(tac);gene_biotype=tRNA
+MZ781228.1,Genbank,tRNA,14021,14083,.,-,.,ID=rna-trnV(tac);Parent=gene-trnV(tac);gbkey=tRNA;gene=trnV(tac);product=tRNA-Val
+MZ781228.1,Genbank,exon,14021,14083,.,-,.,ID=exon-trnV(tac)-1;Parent=rna-trnV(tac);gbkey=tRNA;gene=trnV(tac);product=tRNA-Val
+MZ781228.1,Genbank,gene,14084,14802,.,-,.,ID=gene-rrn12;Name=rrn12;gbkey=Gene;gene=rrn12;gene_biotype=rRNA
+MZ781228.1,Genbank,rRNA,14084,14802,.,-,.,ID=rna-rrn12;Parent=gene-rrn12;gbkey=rRNA;gene=rrn12;product=12S ribosomal RNA
+MZ781228.1,Genbank,exon,14084,14802,.,-,.,ID=exon-rrn12-1;Parent=rna-rrn12;gbkey=rRNA;gene=rrn12;product=12S ribosomal RNA
+MZ781228.1,Genbank,D_loop,14816,15180,.,+,.,ID=id-MZ781228.1:14816..15180;Note=control region;gbkey=D-loop
